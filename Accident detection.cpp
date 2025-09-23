@@ -44,11 +44,8 @@ long readUltrasonicDistance(int trigPin, int echoPin) {
 void loop() { 
   // Distance readings 
   long frontDist = readUltrasonicDistance(trigFront, echoFront); 
-18 
+
  
-[6176AC22UEC006]                          [ARCHANA DEVI P M]                            
-[6176AC22UEC046]                          [JAAVITHA T]                                            [622ECH42]   
-[6176AC22UEC062]                          [KRISHIKA R] 
   long backDist = readUltrasonicDistance(trigBack, echoBack); 
  
   // MPU6050 
@@ -85,4 +82,5 @@ void loop() {
   delay(500); 
 } 
  
+
 }
